@@ -76,7 +76,6 @@ nav button:hover {
 
 .containerHeading,
 #searchHeading {
-    width: fit-content;
     margin-bottom: 20px;
     color: #fff;
     font-size: 1.3em;

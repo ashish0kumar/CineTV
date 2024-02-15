@@ -284,6 +284,15 @@ documentaryBtn.addEventListener("click", () => {
 
 //* Used to automatically scroll the flyer
 
+let scrollAmt;
+
+if (window.innerWidth < 670) {
+    scrollAmt = 380; //* for small screen sizes
+
+} else {
+    scrollAmt = 540;
+}
+
 function scroll() {
 
     if (slidesContainer.scrollLeft + slidesContainer.clientWidth === slidesContainer.scrollWidth) {
@@ -294,7 +303,7 @@ function scroll() {
 
     } else {
         slidesContainer.scrollTo({
-            left: slidesContainer.scrollLeft + 520,
+            left: slidesContainer.scrollLeft + scrollAmt,
             behavior: 'smooth'
         });
     }

@@ -27,8 +27,7 @@ nav {
     align-items: center;
 }
 
-nav h1,
-footer h1 {
+nav h1 {
     color: #fff;
     margin-left: 10px;
     font-size: 1.4em;
@@ -106,7 +105,6 @@ nav button:hover {
 #slidesContainer {
     display: flex;
     overflow: scroll;
-    padding-bottom: 20px;
 }
 
 #slidesContainer img {
@@ -141,7 +139,7 @@ nav button:hover {
 .card {
     display: flex;
     flex-direction: column;
-    width: 218px;
+    width: 14%;
     height: auto;
     transition: 300ms;
     margin: 8px;
@@ -195,8 +193,7 @@ nav button:hover {
 }
 
 .genreCard {
-    width: 278px;
-    height: 150px;
+    width: 18.5%;
     border-radius: 10px;
     padding: 20px;
     margin: 10px 8px;
@@ -237,7 +234,6 @@ nav button:hover {
 }
 
 footer {
-    width: 100%;
     height: 8em;
     background-color: #000;
 }
@@ -290,7 +286,7 @@ footer {
     }
 
     .card {
-        width: 136px;
+        width: 33%;
     }
 
     .card div,
@@ -299,10 +295,11 @@ footer {
     }
 
     .genreCard {
+        width: 33%;
         padding: 15px;
     }
 
     .genreCard span {
-        font-size: 1.6em;
+        font-size: 1.5em;
     }
 }

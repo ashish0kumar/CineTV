@@ -51,7 +51,11 @@ Since this is a frontend project, installation is simple:
 
 ## Screenshots
 
-![](/screenshots/1.png)
+![screenshot](/screenshots/1.png)
+![screenshot](/screenshots/2.png)
+![screenshot](/screenshots/3.png)
+![screenshot](/screenshots/4.png)
+
 
 ## Contributing
 

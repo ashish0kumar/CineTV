@@ -51,7 +51,7 @@ Since this is a frontend project, installation is simple:
 
 ## Screenshots
 
-Include screenshots of your website here.
+![](/screenshots/1.png)
 
 ## Contributing
 

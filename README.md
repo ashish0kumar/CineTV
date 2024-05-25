@@ -66,13 +66,3 @@ Contributions are welcome! Please follow these steps:
 ## License
 
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
-
-## Contact
-
-- **Author**: Your Name
-- **Email**: your-email@example.com
-- **GitHub**: [your-username](https://github.com/ashish0kumar)
-
----
-
-Feel free to customize this README further to reflect any additional details or features of your project.

@@ -41,6 +41,7 @@ Since this is a frontend project, installation is simple:
 2. **Create config.js File:**
    - In the root of your project, create a file named config.js.
    - Add your TMDB API token to this file:
+   <br>
    ```bash
    const api_token = "your_actual_api_token_here";
    ```

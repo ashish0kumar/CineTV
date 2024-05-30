@@ -12,7 +12,7 @@ async function makeRequest(inpQuery, container) {
         const config = {
             headers: {
                 accept: "application/json",
-                Authorization: "Bearer eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiIxOTdlYzk1YzM3YzM0MGNlNWNjMTJiYmQ5NWE2MjAyYiIsInN1YiI6IjY1YzUxMTE2NmRjNTA3MDE2M2ZjYTgwOSIsInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uIjoxfQ.VCoPtyYwvkvKG3tgBNgHXxvgUJFUwPfxHRhpWp1ZSTk"
+                Authorization: `Bearer ${api_token}`
             }
         }
 
@@ -38,7 +38,7 @@ async function discover(media, filter, container) {
             config = {
                 headers: {
                     accept: "application/json",
-                    Authorization: "Bearer eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiIxOTdlYzk1YzM3YzM0MGNlNWNjMTJiYmQ5NWE2MjAyYiIsInN1YiI6IjY1YzUxMTE2NmRjNTA3MDE2M2ZjYTgwOSIsInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uIjoxfQ.VCoPtyYwvkvKG3tgBNgHXxvgUJFUwPfxHRhpWp1ZSTk"
+                    Authorization: `Bearer ${api_token}`
                 },
                 params: {
                     with_origin_country: filter
@@ -49,7 +49,7 @@ async function discover(media, filter, container) {
             config = {
                 headers: {
                     accept: "application/json",
-                    Authorization: "Bearer eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiIxOTdlYzk1YzM3YzM0MGNlNWNjMTJiYmQ5NWE2MjAyYiIsInN1YiI6IjY1YzUxMTE2NmRjNTA3MDE2M2ZjYTgwOSIsInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uIjoxfQ.VCoPtyYwvkvKG3tgBNgHXxvgUJFUwPfxHRhpWp1ZSTk"
+                    Authorization: `Bearer ${api_token}`
                 },
                 params: {
                     with_genres: filter
@@ -81,7 +81,7 @@ form.addEventListener("submit", async (e) => {
         const config = {
             headers: {
                 accept: "application/json",
-                Authorization: "Bearer eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiIxOTdlYzk1YzM3YzM0MGNlNWNjMTJiYmQ5NWE2MjAyYiIsInN1YiI6IjY1YzUxMTE2NmRjNTA3MDE2M2ZjYTgwOSIsInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uIjoxfQ.VCoPtyYwvkvKG3tgBNgHXxvgUJFUwPfxHRhpWp1ZSTk"
+                Authorization: `Bearer ${api_token}`
             },
             params: {
                 query: searchTerm

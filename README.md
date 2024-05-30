@@ -34,8 +34,8 @@ Since this is a frontend project, installation is simple:
 
 1. **Clone the repository**:
    ```bash
-   git clone https://github.com/your-username/cinetv.git
-   cd cinetv
+   git clone https://github.com/ashish0kumar/CineTv.git
+   cd CineTv
    ```
 
 2. **Create config.js File:**

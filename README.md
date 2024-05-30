@@ -37,11 +37,15 @@ Since this is a frontend project, installation is simple:
    git clone https://github.com/your-username/cinetv.git
    cd cinetv
    ```
-2. **Make a config.js file and put your TMDB_API_TOKEN in it:**
-   ```bash
-   const api_token = "ENTER_YOUR_TMDB_API_TOKEN";
 
-3. **Open `index.html` in your web browser**:
+2. **Create config.js File:**
+   - In the root of your project, create a file named config.js.
+   - Add your TMDB API token to this file:
+   ```bash
+   const api_token = "your_actual_api_token_here";
+   ```
+
+4. **Open `index.html` in your web browser**:
    ```bash
    open index.html
    ```

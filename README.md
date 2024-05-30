@@ -37,8 +37,11 @@ Since this is a frontend project, installation is simple:
    git clone https://github.com/your-username/cinetv.git
    cd cinetv
    ```
+2. **Make a config.js file and put your TMDB_API_TOKEN in it:**
+   ```bash
+   const api_token = "ENTER_YOUR_TMDB_API_TOKEN";
 
-2. **Open `index.html` in your web browser**:
+3. **Open `index.html` in your web browser**:
    ```bash
    open index.html
    ```
@@ -47,7 +50,7 @@ Since this is a frontend project, installation is simple:
 
 1. Open your web browser and go to `index.html`.
 2. Explore different genres of movies and series by navigating through sliders and scrolling containers.
-3. Click on a movie or series to view more details.
+3. Search and find your favorite movies and web series.
 
 ## Screenshots
 

@@ -51,7 +51,11 @@ Since this is a frontend project, installation is simple:
 
 ## Screenshots
 
-Include screenshots of your website here.
+![screenshot](/screenshots/1.png) <br> <br>
+![screenshot](/screenshots/2.png) <br> <br>
+![screenshot](/screenshots/3.png) <br> <br>
+![screenshot](/screenshots/4.png) <br> <br>
+
 
 ## Contributing
 
@@ -62,7 +66,3 @@ Contributions are welcome! Please follow these steps:
 3. Make your changes and commit them: `git commit -m 'Add some feature'`.
 4. Push to the branch: `git push origin feature-branch-name`.
 5. Submit a pull request.
-
-## License
-
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
